@@ -1,0 +1,230 @@
+{
+  "bnh": {
+    "label": "Bookmarks and History",
+    "desc": "Saved bookmarks, browsing history and automatic daily backup snapshots.",
+    "paths": [
+      "places.sqlite",
+      "places.sqlite-wal",
+      "bookmarkbackups"
+    ]
+  },
+  "passwords": {
+    "label": "Passwords",
+    "desc": "Encrypted login credentials, backup copy, and the key database.",
+    "paths": [
+      "logins.json",
+      "logins-backup.json",
+      "logins.db",
+      "key4.db"
+    ]
+  },
+  "cookies": {
+    "label": "Cookies",
+    "desc": "All stored site cookies including WAL journal.",
+    "paths": [
+      "cookies.sqlite",
+      "cookies.sqlite-wal"
+    ]
+  },
+  "extensions": {
+    "label": "Extensions / Add-ons",
+    "desc": "Installed .xpi files, per-extension storage data, and all manifests.",
+    "paths": [
+      "extensions",
+      "extensions.json",
+      "extension-settings.json",
+      "extension-preferences.json",
+      "extension-store",
+      "extension-store-menus",
+      "extension-store-userscripts",
+      "extension-store-permissions.json",
+      "browser-extension-data",
+      "addonStartup.json.lz4",
+      "addons.json"
+    ]
+  },
+  "prefs": {
+    "label": "Preferences",
+    "desc": "Main browser config, user overrides, and UI state store.",
+    "paths": [
+      "prefs.js",
+      "prefs-1.js",
+      "user.js",
+      "xulstore.json"
+    ]
+  },
+  "sessions": {
+    "label": "Session / Open Tabs",
+    "desc": "Current session, recovery backups, and upgrade snapshots.",
+    "paths": [
+      "sessionstore.jsonlz4",
+      "sessionstore-backups",
+      "sessionstore-logs",
+      "sessionCheckpoints.json"
+    ]
+  },
+  "zen_sessions": {
+    "label": "Zen Sessions",
+    "desc": "Zen-specific named sessions and their rolling backup history.",
+    "paths": [
+      "zen-sessions.jsonlz4",
+      "zen-sessions-backup"
+    ]
+  },
+  "zen_themes": {
+    "label": "Zen Themes",
+    "desc": "Enabled Zen themes and the generated theme stylesheet.",
+    "paths": [
+      "zen-themes.json",
+      "chrome/zen-themes.css"
+    ]
+  },
+  "zen_boosts": {
+    "label": "Zen Boosts",
+    "desc": "Zen Boosts site-style overrides.",
+    "paths": [
+      "zen-boosts",
+      "zen-boosts.jsonlz4"
+    ]
+  },
+  "zen_live_folders": {
+    "label": "Zen Live Folders",
+    "desc": "Live folder definitions.",
+    "paths": [
+      "zen-live-folders.jsonlz4"
+    ]
+  },
+  "zen_keyboard_shortcuts": {
+    "label": "Zen Keyboard Shortcuts",
+    "desc": "Custom keyboard shortcut bindings specific to Zen.",
+    "paths": [
+      "zen-keyboard-shortcuts.json"
+    ]
+  },
+  "chrome": {
+    "label": "userChrome / userContent / Sine mods",
+    "desc": "Custom CSS, Sine mod scripts, JS engine, locales, and theme overrides.",
+    "paths": [
+      "chrome"
+    ]
+  },
+  "search": {
+    "label": "Search Engines",
+    "desc": "Custom and default search engine definitions.",
+    "paths": [
+      "search.json.mozlz4"
+    ]
+  },
+  "certificates": {
+    "label": "Certificates",
+    "desc": "Trusted certificate store and manual overrides.",
+    "paths": [
+      "cert9.db",
+      "cert_override.txt",
+      "pkcs11.txt"
+    ]
+  },
+  "containers": {
+    "label": "Containers",
+    "desc": "Multi-Account Containers identities and tab assignments.",
+    "paths": [
+      "containers.json"
+    ]
+  },
+  "storage": {
+    "label": "Web Storage / IndexedDB",
+    "desc": "Per-origin localStorage, IndexedDB, service-worker caches, and storage registry.",
+    "paths": [
+      "storage",
+      "storage.sqlite",
+      "storage-sync-v2.sqlite",
+      "storage-sync-v2.sqlite-wal",
+      "webappsstore.sqlite",
+      "webappsstore.sqlite-wal"
+    ]
+  },
+  "permissions": {
+    "label": "Site Permissions",
+    "desc": "Per-site camera, microphone, notifications, and other grants.",
+    "paths": [
+      "permissions.sqlite"
+    ]
+  },
+  "formhistory": {
+    "label": "Form History / Autofill",
+    "desc": "Saved form-field autofill entries and autofill profiles.",
+    "paths": [
+      "formhistory.sqlite",
+      "autofill-profiles.json"
+    ]
+  },
+  "favicons": {
+    "label": "Favicons",
+    "desc": "Cached site icons used in bookmarks, history, and tabs.",
+    "paths": [
+      "favicons.sqlite",
+      "favicons.sqlite-wal"
+    ]
+  },
+  "content_prefs": {
+    "label": "Per-site Content Preferences",
+    "desc": "Per-origin zoom levels, character encoding overrides, etc.",
+    "paths": [
+      "content-prefs.sqlite"
+    ]
+  },
+  "sync": {
+    "label": "Firefox Sync",
+    "desc": "Sync account credentials, engine state, change queues, and logs.",
+    "paths": [
+      "signedInUser.json",
+      "weave",
+      "synced-tabs.db",
+      "synced-tabs.db-wal"
+    ]
+  },
+  "protections": {
+    "label": "Privacy Protections DB",
+    "desc": "Tracking protection and Enhanced Privacy statistics.",
+    "paths": [
+      "protections.sqlite"
+    ]
+  },
+  "network_state": {
+    "label": "Network & Security State",
+    "desc": "HSTS/HPKP pins, OCSP staples, and security preload overrides.",
+    "paths": [
+      "SiteSecurityServiceState.bin",
+      "security_state"
+    ]
+  },
+  "handlers": {
+    "label": "Protocol / File Handlers",
+    "desc": "Custom protocol and MIME-type handler assignments.",
+    "paths": [
+      "handlers.json"
+    ]
+  },
+  "notifications": {
+    "label": "Notification Store",
+    "desc": "Pending and dismissed web push notification records.",
+    "paths": [
+      "notificationstore.json"
+    ]
+  },
+  "chat": {
+    "label": "Chat Store",
+    "desc": "Presumibly AI chat history database.",
+    "paths": [
+      "chat-store.sqlite",
+      "chat-store.sqlite-wal"
+    ]
+  },
+  "datareporting": {
+    "label": "Telemetry / Data Reporting",
+    "desc": "Glean telemetry database and reporting state (safe to skip).",
+    "paths": [
+      "datareporting"
+    ]
+  }
+}
