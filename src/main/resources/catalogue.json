@@ -115,6 +115,13 @@
       "search.json.mozlz4"
     ]
   },
+  "settings": {
+    "label": "Settings",
+    "desc": "Browser settings.",
+    "paths": [
+      "settings"
+    ]
+  },
   "certificates": {
     "label": "Certificates",
     "desc": "Trusted certificate store and manual overrides.",
